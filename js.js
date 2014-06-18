@@ -1,4 +1,4 @@
-$(document).ready(function(){
+(function(){
 	var angle = 0,
 	increase = (2 * Math.PI) / 20;
 
@@ -16,4 +16,4 @@ $(document).ready(function(){
 	};
 };
 	setInterval (rotate, 40);
-});
+})();
